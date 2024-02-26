@@ -6,10 +6,18 @@
     "license": "MIT",
     "require": {
         "php": "^8.1",
+        "dompdf/dompdf": "^2.0",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^10.10",
         "laravel/sanctum": "^3.3",
-        "laravel/tinker": "^2.8"
+        "laravel/tinker": "^2.8",
+        "maatwebsite/excel": "^3.1",
+        "ncjoes/office-converter": "^1.0",
+        "php-flasher/flasher-laravel": "^1.15",
+        "php-flasher/flasher-toastr-laravel": "^1.15",
+        "phpoffice/phpspreadsheet": "^1.29",
+        "phpoffice/phpword": "^1.2",
+        "tecnickcom/tcpdf": "^6.6"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

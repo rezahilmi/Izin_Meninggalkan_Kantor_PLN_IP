@@ -1,0 +1,93 @@
+*{
+  font-family: 'Ubuntu', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  min-height: 100vh;
+}
+
+.sidebar {
+  background-color: #111827;
+  width: 260px;
+  padding: 24px;
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.main-content {
+  background-color: #eee;
+  flex-grow: 1;
+}
+
+.sidebar a {
+  text-decoration: none;
+}
+
+
+.sidebar .header .list-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 8px;
+}
+
+
+.sidebar .main .list-item {
+  display: flex;
+  align-items: center;
+  width: 212px;
+  padding: 12px 10px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.sidebar .main .list-item .description {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: #fff;
+}
+
+.sidebar .main .list-item .icon {
+  margin-right: 12px;
+}
+
+.sidebar .main .list-item:hover {
+    background: #F90;
+    transition: all ease-in .2s;
+}
+
+/* to0gle menu */
+
+#menu-button {
+  width: 32px;
+  background-color: #F90;
+  position: absolute;
+  overflow: hidden;
+}
+
+#menu-label {
+  position: relative;
+  display: block;
+  height: 20px;
+  cursor: pointer;
+}
+
+#menu-checkbox {
+  display: none;
+}
+
+#hamburger {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background-color: #111827;
+}
